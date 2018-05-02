@@ -1,9 +1,12 @@
 def fizzbuzz (num)
   word = ""
   if (num % 3 == 0)
-    word = "Fizz"
+    "Fizz"
   end
   if (num % 5 == 0)
-    word += "Buzz"
+    "Buzz"
+  end
+  if (num % 5 == 0 && num % 3 == 0)
+    "FizzBuzz"
   end
 end
