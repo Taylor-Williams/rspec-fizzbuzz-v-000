@@ -4,7 +4,11 @@ def fizzbuzz (num)
     word = "Fizz"
   end
   if (num % 5 == 0)
-    word += "Buzz"
+    if (word == nil)
+      word = "Buzz"
+    else
+      word = "FizzBuzz"
+    end
   end
   return word
 end
